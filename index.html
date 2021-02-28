@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/personal-brand-2.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">My Work</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Megha Malviya</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+        <img src="img/pic_1.jpg" alt="a picture of Megha Malviya smiling" class="intro__img">
+    </section>
+
+
+    <!-- My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+            What I know
+            </h1>
+            <div class="services">
+                <div class="service service-01">
+                    <img src="img/Front-end-logo.png" class="service-img-01" alt="">
+                    <h3>Frontend</h3>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">HTML5</li>
+                        <li class="skills-list-item">CSS3</li>
+                        <li class="skills-list-item">Bootstrap</li>
+                        <li class="skills-list-item">ES6</li>
+                        <li class="skills-list-item">React</li>
+                        <li class="skills-list-item">Angular</li>
+                    </ul>
+                </div>
+
+                <div class="service service-02">
+                    <img src="img/backend-logo.png" class="service-img-02" alt="">
+                    <h3 class="serive-heading">Backend</h3>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">C</li>
+                        <li class="skills-list-item">C++</li>
+                        <li class="skills-list-item">Java</li>
+                        <li class="skills-list-item">J2ee</li>
+                        <li class="skills-list-item">Python(Basics)</li>
+                    </ul>
+                </div>
+
+                <div class="service service-03">
+                    <img src="img/database-logo.png" class="service-img-03" alt="">
+                    <h3 class="serive-heading">Databases</h3>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">Oracle</li>
+                        <li class="skills-list-item">MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h1 class="section__title section__title--about">
+            Who I am
+        </h1>
+        <p class="section__subtitle section__subtitle--about">Developer based out of Madhya Pradesh, India</p>
+
+        <div class="about-me__body">
+            <p>I am a computer science graduate. I possess skillset of both backend and frontend technologies with a good knowledge of database such as Oracle. I am passionate about programming and building creative projects showcasing my skills.</p>
+            <p>I like to get acquainted with latest technologies of digital world. I always seek into learning new things to enchance myself. I am hardworking but for me hardwork and smartwork go hand in hand.</p>
+        </div>
+
+        <img src="img/pic_2.jpg" alt="Megha leaning against a bus" class="about-me__img">
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Railway Reservation System</div>
+                        <h5 class="card-title text-muted">C(File handling)</h5>
+                        <p class="card-text">A console based application to facilitate ticket booking.</p>
+                        <a href="portfolio-item-01.html" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 02-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Restaurant Billing Application</div>
+                        <h5 class="card-title text-muted">Java | Oracle DB</h5>
+                        <p class="card-text">Basic java based desktop application to replace manual billing system.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 03-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Pizzeria</div>
+                        <h5 class="card-title text-muted">M E A N</h5>
+                        <p class="card-text">Pizza ordering app allowing user to order various pizzas with added ingredients.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 04-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">My Contacts</div>
+                        <h5 class="card-title text-muted">M E A N</h5>
+                        <p class="card-text">Contact storage app allowing CRUD operations on new and stored contacts.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 05-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Support Ticket App</div>
+                        <h5 class="card-title text-muted">M E R N</h5>
+                        <p class="card-text">An app to generate tickets for purchased products.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 06-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Login App</div>
+                        <h5 class="card-title text-muted">M E R N</h5>
+                        <p class="card-text">Contact storage app allowing CRUD operations on new and stored contacts.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 07-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Voice to sign language convertor</div>
+                        <h5 class="card-title text-muted">Python</h5>
+                        <p class="card-text">Voice to sign language conversion application to facilitate communication with hearing impaired people.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio item 08-->
+            <div class="portfolio__item">
+                <div class="card portfolio__img">
+                    <div class="card-body">
+                        <div class="card-header card-header-style">Website development</div>
+                        <h5 class="card-title text-muted">WordPress</h5>
+                        <p class="card-text">A well designed website of an institute.</p>
+                        <a href="#" class="portfolio__item"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:megha.malviya444@gmail.com" class="footer__link">megha.malviya444@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/megha_5/">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/megha-malviya/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/W-Megha-W/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
