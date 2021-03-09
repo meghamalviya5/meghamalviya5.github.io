@@ -328,6 +328,10 @@
         margin: 0 auto;
     }
     
+    .service-heading {
+        font-weight: var(--fw-bold);
+    }
+    
     .service-02 {
         margin-top: 22px;
     }
@@ -437,7 +441,7 @@
     .card-header-style {
         background-color: var(--clr-dark);
         color: var(--clr-accent);
-        font-weight: bold;
+        font-weight: var(--fw-bold);
     }
     
     .portfolio__img {
